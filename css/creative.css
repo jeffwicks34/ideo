@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 @import url(http://fonts.googleapis.com/css?family=Ropa+Sans);
+
 html,
 body {
     width: 100%;
@@ -11,7 +12,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -42,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 p {
@@ -61,7 +62,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 section {
@@ -72,15 +73,13 @@ aside {
     padding: 50px 0;
 }
 
-
-
 .no-padding {
     padding: 0;
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    border-color: rgba(34, 34, 34, .05);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -89,7 +88,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     color: #f05f40;
 }
@@ -99,38 +98,38 @@ aside {
     color: #eb3812;
 }
 
-.navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #222;
 }
 
-.navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
     color: #f05f40;
 }
 
-.navbar-default .nav > li.active>a,
-.navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+    color: #f05f40 !important;
     background-color: transparent;
 }
 
-.navbar-default .nav > li.active>a:hover,
-.navbar-default .nav>li.active>a:focus:hover {
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: rgba(255, 255, 255, .3);
         background-color: transparent;
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255, 255, 255, .7);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -138,18 +137,18 @@ aside {
         color: #fff;
     }
 
-    .navbar-default .nav > li>a,
-    .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+    .navbar-default .nav > li > a,
+    .navbar-default .nav > li > a:focus {
+        color: rgba(255, 255, 255, .7);
     }
 
-    .navbar-default .nav > li>a:hover,
-    .navbar-default .nav>li>a:focus:hover {
+    .navbar-default .nav > li > a:hover,
+    .navbar-default .nav > li > a:focus:hover {
         color: #fff;
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-color: rgba(34, 34, 34, .05);
         background-color: #fff;
     }
 
@@ -163,13 +162,13 @@ aside {
         color: #eb3812;
     }
 
-    .navbar-default.affix .nav > li>a,
-    .navbar-default.affix .nav>li>a:focus {
+    .navbar-default.affix .nav > li > a,
+    .navbar-default.affix .nav > li > a:focus {
         color: #222;
     }
 
-    .navbar-default.affix .nav > li>a:hover,
-    .navbar-default.affix .nav>li>a:focus:hover {
+    .navbar-default.affix .nav > li > a:hover,
+    .navbar-default.affix .nav > li > a:focus:hover {
         color: #f05f40;
     }
 }
@@ -223,10 +222,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     header {
         min-height: 100%;
     }
@@ -263,7 +262,7 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
-@media(min-width:992px) {
+@media (min-width: 992px) {
     .service-box {
         margin: 20px auto 0;
     }
@@ -289,7 +288,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(240, 95, 64, .9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -306,7 +305,7 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -323,7 +322,7 @@ header .header-content .header-content-inner p {
     opacity: 1;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
@@ -456,7 +455,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -490,9 +489,14 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-#brand {
-    font-family: 'Ropa Sans';
-    font-weight: normal;
-    /*font-size: 2em;*/
-    text-transform: lowercase;
+.brand {
+    font-family: 'Ropa Sans' !important;
+    font-weight: normal !important;
+    font-size: 1.25em;
+
+    text-transform: lowercase !important;
+}
+#brand-landing{
+    font-size: 12em !important;
+
 }

@@ -49,14 +49,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a id="brand" class="navbar-brand page-scroll" href="#landing">ideo</a>
+            <a class="navbar-brand page-scroll brand" href="#landing">ideo</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">Czym jest IDEO</a>
+                    <a class="page-scroll" href="#about">Czym jest <span class="brand">ideo</span></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#whenwhere">Jak dołączyć</a>
@@ -80,7 +80,7 @@
 <header id="landing">
     <div class="header-content">
         <div class="header-content-inner">
-            <h1 id="brand">ideo</h1>
+            <h1 class="brand" id="brand-landing">ideo</h1>
             <hr>
             <p>Uwolnij swoje myśli</p>
             <a href="#about" class="btn btn-primary btn-xl page-scroll">Dowiedz się więcej</a>
@@ -92,13 +92,15 @@
     <div class="container">
         <div class="row">
 
+            <div class="col-lg-5">
+                <img src="https://snap-photos.s3.amazonaws.com/img-thumbs/960w/V7BGWW790W.jpg"
+                     class="img-thumbnail img-responsive">
 
-            <div class="col-lg-12 text-center ">
+            </div>
+            <div class="col-lg-7 text-justify">
 
-                <h2 class="section-heading">Czym jest IDEO</h2>
+                <h2 class="section-heading text-center">Czym jest <span class="brand">ideo</span></h2>
                 <hr class="light">
-
-
                 <p class="text-faded ">To inicjatywa studentów dla studentów, w której każdy może
                     wypowiedzeić się na
                     temat, który uważa za ciekawy lub ważny. Prezentacja może być z dowolnej dziedziny, ważne aby
@@ -106,11 +108,13 @@
                     prezentujacego
                     to będzie i czas i miejsce na dyskusję.</p>
 
-                <p class="text-faded ">IDEO nie jest kolejnym nudnym wykładem, tu nie dostaniesz punktów
+                <p class="text-faded "><span class="brand">ideo</span> nie jest kolejnym nudnym wykładem, tu nie
+                    dostaniesz punktów
                     do stypendium
                     ani pracy. To miejsce wymiany myśli i spostrzeżeń o świecie.
                 </p>
-                <a href="#whenwhere" class="btn btn-default btn-xl page-scroll ">Dołącz do nas</a>
+
+                <a href="#whenwhere" class="btn btn-default btn-xl page-scroll btn-block ">Dołącz do nas</a>
             </div>
 
 
@@ -127,7 +131,8 @@
 <section id="whenwhere">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
+
+            <div class="col-lg-12 text-center">
 
                 <h2 class="section-heading">Wpadnij posłuchać!</h2>
 
@@ -142,18 +147,27 @@
             width="100%" height="450" frameborder="0" style="border:0"></iframe>
 </section>
 <section class="bg-primary" id="signin">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <h2 class="section-heading">Chcesz coś powiedzieć?</h2>
-            <hr class="primary">
-            <p>Jeśli chcesz aktywnie uczestniczyć w spotkaniu i zostać Ideowcem? Daj nam znać
-                wysyłając wiadomość na adres dev@uek.krakow.pl lub zgłoś się do nas przed rozpoczęciem
-                spotkania.</p>
-            <a href="#" class="btn btn-default btn-xl wow tada">Zapisz się</a>
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6 ">
+                <div class="call-to-action">
+                    <h2 class="section-heading">Chcesz coś powiedzieć?</h2>
+                    <hr class="primary">
+                    <p class="lead text-justify" >Jeśli chcesz aktywnie uczestniczyć w spotkaniu i zostać Ideowcem? Daj nam znać
+                        wysyłając wiadomość na adres dev@uek.krakow.pl lub zgłoś się do nas przed rozpoczęciem
+                        spotkania.</p>
+                    <a href="#" class="btn btn-default btn-xl wow tada btn-block">Zapisz się</a>
+                </div>
 
 
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6  ">
+                <img src="./img/cubesheep_02-05.png" style="padding:10%" class="img-responsive">
+
+            </div>
         </div>
     </div>
+
 </section>
 
 <!--<div class="container">-->
@@ -362,20 +376,38 @@
     <div class="container">
 
         <div class="row">
+            <!--<h2 class="text-center">Kontakt</h2>-->
 
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2>Kontakt</h2>
-                <address>
-                    <strong>Koło Naukowe Programistów >dev</strong><br/>
+            <!--<div class="col-lg-4">-->
+            <!--</div>-->
+
+
+            <div class="col-lg-6  col-md-6 col-sm-12   ">
+
+                <address class="text-center">
+
+                    <h3>Koło Naukowe Programistów dev</h3>
                     Uniwersytet Ekonomiczny w Krakowie<br/>
-                    Rakowicka 27, Kraków 31-510<br/>
                     Biblioteka, pokój 432<br/>
-                    <a href="mailto:dev@uek.krakow.pl">dev@uek.krakow.pl</a><br/>
 
-                    <a href="dev.uek.krakow.pl">dev.uek.krakow.pl</a>
+                    Rakowicka 27<br/>
+                    Kraków 31-510<br/>
+
+
+                    <a href="mailto:dev@uek.krakow.pl" class="text-faded">dev@uek.krakow.pl</a><br/>
+
+                    <a href="dev.uek.krakow.pl" class="text-faded">dev.uek.krakow.pl</a>
+
                 </address>
 
             </div>
+
+            <div class="col-lg-3  col-md-6 col-sm-12 col-xs-6 col-xs-offset-3 text-center">
+                <img src="./img/dev.png" class="img-responsive pull-left" style="padding:10%">
+
+            </div>
+
+
             <!--<i class="fa fa-phone fa-3x wow bounceIn"></i>-->
             <!--<p>123-456-6789</p>-->
         </div>
