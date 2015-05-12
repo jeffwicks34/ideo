@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans);
 html,
 body {
     width: 100%;
@@ -71,6 +71,8 @@ section {
 aside {
     padding: 50px 0;
 }
+
+
 
 .no-padding {
     padding: 0;
@@ -178,6 +180,15 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/6MOWG59HJ1.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/DD4NCRPX83.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/DUGHLO7780.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/MMWMBTOKIC.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/AB059D7BD1.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/TUFQ5JUFLE.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/F0277449BE.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/QED8GG50PU.jpg);*/
+    /*background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/K4GF7KNIHS.jpg);*/
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -239,7 +250,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        /*font-size: 18px;*/
     }
 }
 
@@ -477,4 +488,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+#brand {
+    font-family: 'Ropa Sans';
+    font-weight: normal;
+    /*font-size: 2em;*/
+    text-transform: lowercase;
 }
