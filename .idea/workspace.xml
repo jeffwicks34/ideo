@@ -26,12 +26,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38375974">
-              <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.2836485">
+              <caret line="17" column="135" selection-start-line="17" selection-start-column="135" selection-end-line="17" selection-end-column="135" />
               <folding>
-                <marker date="1431526414657" expanded="true" signature="4389:4425" placeholder="..." />
-                <marker date="1431526414657" expanded="false" signature="6224:6240" placeholder="..." />
-                <marker date="1431526414657" expanded="true" signature="7443:9150" placeholder="..." />
+                <marker date="1431527031022" expanded="true" signature="4176:4212" placeholder="..." />
+                <marker date="1431527031022" expanded="false" signature="6013:6029" placeholder="..." />
+                <marker date="1431527031022" expanded="true" signature="7232:8939" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -170,12 +170,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38375974">
-          <caret line="89" column="56" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.2836485">
+          <caret line="17" column="135" selection-start-line="17" selection-start-column="135" selection-end-line="17" selection-end-column="135" />
           <folding>
-            <marker date="1431526414657" expanded="true" signature="4389:4425" placeholder="..." />
-            <marker date="1431526414657" expanded="false" signature="6224:6240" placeholder="..." />
-            <marker date="1431526414657" expanded="true" signature="7443:9150" placeholder="..." />
+            <marker date="1431527031022" expanded="true" signature="4176:4212" placeholder="..." />
+            <marker date="1431527031022" expanded="false" signature="6013:6029" placeholder="..." />
+            <marker date="1431527031022" expanded="true" signature="7232:8939" placeholder="..." />
           </folding>
         </state>
       </provider>
