@@ -210,9 +210,9 @@ header .header-content .header-content-inner h1 {
     font-weight: 700;
 }
 
-iframe {
-    pointer-events: none;
-}
+/*iframe {*/
+    /*pointer-events: none;*/
+/*}*/
 
 header .header-content .header-content-inner hr {
     margin: 30px auto;
