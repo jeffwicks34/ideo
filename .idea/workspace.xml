@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed56e53-f423-4482-a763-9f799af21163" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/3.jpg" afterPath="$PROJECT_DIR$/img/portfolio/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/creative.css" afterPath="$PROJECT_DIR$/css/creative.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="template.iws" />
@@ -28,14 +26,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49944383">
-              <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34927696">
+              <caret line="190" column="89" selection-start-line="190" selection-start-column="89" selection-end-line="190" selection-end-column="89" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1431597622901" expanded="true" signature="4186:4222" placeholder="..." />
-                <marker date="1431597622901" expanded="false" signature="6023:6039" placeholder="..." />
+                <marker date="1431601624912" expanded="true" signature="4186:4222" placeholder="..." />
+                <marker date="1431601624912" expanded="false" signature="6023:6039" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -246,14 +244,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49944383">
-          <caret line="448" column="0" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.34927696">
+          <caret line="190" column="89" selection-start-line="190" selection-start-column="89" selection-end-line="190" selection-end-column="89" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1431597622901" expanded="true" signature="4186:4222" placeholder="..." />
-            <marker date="1431597622901" expanded="false" signature="6023:6039" placeholder="..." />
+            <marker date="1431601624912" expanded="true" signature="4186:4222" placeholder="..." />
+            <marker date="1431601624912" expanded="false" signature="6023:6039" placeholder="..." />
           </folding>
         </state>
       </provider>
