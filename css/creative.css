@@ -216,7 +216,8 @@ iframe {
 }
 
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+    margin: 30
+    x auto;
 }
 
 header .header-content .header-content-inner p {
@@ -501,4 +502,8 @@ body {
 #brand-landing {
     font-size: 12em !important;
 
+}
+p.text-faded lead text-justify {
+    font-family: Lora;
+    font-size: 18px;
 }
